@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Email Validator</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href = "style.css" rel = "stylesheet" >
+	
+	 
+ </head>
+<body>
+
+<body onload='document.form1.text1.focus()'>
+
+<div class="mail">
+
+<h1>Email Validator</h1>
+
+<img src = "email1.jpg" alt = "Email Validator" >
+
+<p > Hey people!! Please insert a valid Email.Thankyou </p>
+
+<form name = "form1" action = "#"> 
+
+<input type = "email" placeholder = "Example:abc123@gmail.com" name = "Email"> 
+
+
+<input type = "submit" name = "submit" value = "Submit" onclick = "ValidateEmail(document.form1.text1)"/>
+
+
+</form>
+
+</div>
+
+<footer > Thanks for choosing us!! </footer>
+ 
+<script src="vendor/jquery/jquery.min.js"></script>
+
+ <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+ <script src = "EmailValidate.js"></script>
+
+
+</body>
+</html>
